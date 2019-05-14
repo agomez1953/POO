@@ -13,3 +13,7 @@ setattr(casa_vecino,"banos",3)
 setattr(casa_vecino,"ambientes",5)
 print(f'Mi casa tiene {mi_casa.ambientes} ambientes')
 print(f'La del vecino tiene {casa_vecino.ambientes} ambientes')
+atributos = casa_Homero.__dict__
+# este for es para imprimir los atributos
+for llave in atributos:
+    print(f'atributo {llave} con el valor {atributos[llave]}')
