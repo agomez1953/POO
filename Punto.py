@@ -13,6 +13,9 @@ class Punto:
     def desplazarY (self, y):
         return Punto(self.x ,self.y + y)
 
+    def hallar_pendiente(self,other):
+        return (self.y-other.y)/(self.x-other.x)
+
     def __repr__(self):
         return f'En {self.x,self.y}'
 
