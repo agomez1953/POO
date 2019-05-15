@@ -8,6 +8,5 @@ if puntico1 == puntico2:
 else:
     print('El punto',puntico1, 'y el punto', puntico2, 'son diferentes')
 
-
-print ('el punto al desplazarse es (',puntico1.desplazarX(1),',',puntico1.y,')')
-print ('el punto al desplazarse es (',puntico1.y,',',puntico1.desplazarY(1),')')
+print(puntico1.desplazarX(3))
+print(puntico1.desplazarY(7))
